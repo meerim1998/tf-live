@@ -48,10 +48,7 @@ variable "disk_size_gb" {
   default     = 20
 }
 
-variable "ec2_ssh_key" {
-  description = "The name of the SSH key pair to use for accessing the nodes."
-  type        = string
-}
+
 
 variable "source_security_group_id" {
   description = "The ID of the security group to allow SSH access from."
