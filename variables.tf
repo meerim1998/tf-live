@@ -48,8 +48,6 @@ variable "disk_size_gb" {
   default     = 20
 }
 
-
-
 variable "source_security_group_id" {
   description = "The ID of the security group to allow SSH access from."
   type        = string
