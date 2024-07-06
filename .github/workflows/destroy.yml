@@ -1,10 +1,7 @@
 name: Destroy Terraform Infrastructure
 
 on:
-  push:
-    branches:
-      - main
-      
+  workflow_dispatch:  # Этот триггер позволяет запускать workflow вручную из GitHub интерфейса
 
 jobs:
   destroy:
